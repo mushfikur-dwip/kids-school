@@ -7,6 +7,9 @@
   padding: 0;
 }
 
+body {
+  font-family: Quicksand;
+}
 /* Custome CSS Class */
 .display-flex {
   display: flex;
@@ -39,6 +42,9 @@
   border: none;
 }
 
+section {
+  margin-bottom: 78px;
+}
 /* Navbar */
 .nav-bar {
   justify-content: center;
@@ -85,8 +91,45 @@
   text-decoration: none;
 }
 
-.menu-btn .primary-btn{
-    color: white;
-    background-color: #fea301;
-    cursor: pointer;
+.menu-btn .primary-btn {
+  color: white;
+  background-color: #fea301;
+  cursor: pointer;
+}
+
+/* Hero Section Design */
+.hero {
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  width: 100%;
+  width: 1510px;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero h1 {
+  font-family: Quicksand;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.hero p {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 26px 0px;
+}
+
+.main-title > button {
+  background-color: #000;
+  color: #fff;
 }
