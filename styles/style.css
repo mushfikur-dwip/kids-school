@@ -299,7 +299,7 @@ marquee {
 .our-stories-container {
   flex-direction: column;
   align-items: center;
-  background: url(/assets/bg.png),
+  background: url(../assets/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
   /* max-width: 21px; */
 }
