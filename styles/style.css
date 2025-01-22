@@ -377,6 +377,7 @@ marquee {
 }
 .sub-stories h3 {
   padding: 30px;
+  margin-top: 30px;
 }
 .sub-stories-card time {
   border-radius: 47.93px;
@@ -494,6 +495,12 @@ footer {
   }
 /* Responsive Design */
 @media only screen and (max-width: 460px) {
+
+  .sub-stories h3 {
+  padding: 30px;
+  margin-top: 0px;
+}
+
 
   .sub-stories-card .violant-bg{
     background-color: #5d58ef;
